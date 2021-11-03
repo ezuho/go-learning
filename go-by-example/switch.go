@@ -7,7 +7,7 @@ import (
 
 func main() {
 	i := 2
-	fmt.Print("write ", i , " as ")
+	fmt.Print("write ", i, " as ")
 	switch i {
 	case 1:
 		fmt.Println("one")
@@ -46,4 +46,3 @@ func main() {
 	whatAmI(1)
 	whatAmI("string")
 }
-
