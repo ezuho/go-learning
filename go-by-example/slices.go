@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	s := make([]string, 3)
 	fmt.Println("emp:", s)
 
@@ -27,7 +28,7 @@ func main() {
 
 	l = s[:5]
 	fmt.Println("sl2:", l)
-	
+
 	l = s[2:]
 	fmt.Println("sl3:", l)
 
@@ -42,5 +43,5 @@ func main() {
 			twoD[i][j] = i + j
 		}
 	}
-	fmt.Println("2d:", twoD)
+	fmt.Println("2d: ", twoD)
 }

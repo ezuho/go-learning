@@ -10,7 +10,7 @@ func main() {
 		for {
 			j, more := <-jobs
 			if more {
-				fmt.Println("received job:", j)
+				fmt.Println("received job", j)
 			} else {
 				fmt.Println("received all jobs")
 				done <- true
@@ -21,7 +21,7 @@ func main() {
 
 	for j := 1; j <= 3; j++ {
 		jobs <- j
-		fmt.Println("sent job:", j)
+		fmt.Println("sent job", j)
 	}
 	close(jobs)
 	fmt.Println("sent all jobs")

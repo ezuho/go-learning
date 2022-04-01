@@ -7,6 +7,7 @@ func vals() (int, int) {
 }
 
 func main() {
+
 	a, b := vals()
 	fmt.Println(a)
 	fmt.Println(b)

@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+
 	requests := make(chan int, 5)
 	for i := 1; i <= 5; i++ {
 		requests <- i
@@ -35,7 +36,6 @@ func main() {
 	for i := 1; i <= 5; i++ {
 		burstyRequests <- i
 	}
-	
 	close(burstyRequests)
 	for req := range burstyRequests {
 		<-burstyLimiter

@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+
 	i := 2
 	fmt.Print("write ", i, " as ")
 	switch i {
@@ -44,5 +45,5 @@ func main() {
 	}
 	whatAmI(true)
 	whatAmI(1)
-	whatAmI("string")
+	whatAmI("hey")
 }
