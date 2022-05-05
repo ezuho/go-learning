@@ -1,4 +1,4 @@
-module gin-gonic-example
+module quick-started
 
 go 1.18
 
