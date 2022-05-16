@@ -7,6 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-playground/validator/v10 v10.4.1
 	github.com/jessevdk/go-assets v0.0.0-20160921144138-4f4301a06e15
+	golang.org/x/sync v0.0.0-20220513210516-0976fa681c29
 )
 
 require (
